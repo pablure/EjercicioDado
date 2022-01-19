@@ -1,0 +1,65 @@
+h1{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: rgb(5, 5, 150);
+}
+.content{
+  margin: 0 auto;
+  background-color: rgb(245, 245, 245);
+  border: 3px solid #ccc;
+  border-radius: 20px 50px 20px 50px;
+  width: 50%;
+  min-height: 300px;
+  box-shadow: 0px 0px 5px black;
+}
+.contenedordados{
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;  
+  margin-top: 20px;
+  border-radius: 20px 50px 20px 50px;
+  width: 80%;
+  height: 100px;
+  
+}
+.dado{
+  background-color: white;
+  border-radius: 20px;
+  border: 2px solid gray;
+  width: 75px;
+  height: 75px;
+  text-align: center;
+  font-size: 40px;
+  line-height: 75px;
+  box-shadow: 1px 1px 3px gray;
+}
+.contenedorbotones{
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 80%;
+  height: 50px;
+  
+}
+.boton:hover{
+  background-color: rgb(5, 5, 150);
+  color: white;
+}
+.text{
+  margin: 0 auto;
+  margin-top: 16px;
+  margin-bottom: 20px;
+  width: 80%;
+  font-size: 16px;
+  font-weight: 800;
+}
+.text p{
+  display: inline;
+  font-size: 30px;
+}
+img{
+  width: 75px;
+}
+
