@@ -3,13 +3,13 @@ import './style.css'
 const boton1 = document.querySelector(".boton1")
 const boton2 = document.querySelector(".boton2")
 const boton3 = document.querySelector(".boton3")
-const imagen = document.querySelector("img")
+/*const imagen = document.querySelector(".img")*/
 
 let suma = 0
 function lanzar(numDado) {
   let resultado = Math.floor(Math.random() * 6) + 1;
-  let dado = document.querySelector(numDado)
-  dado.innerHTML = resultado
+  let dado = document.querySelector(`${numDado} .img`)
+  dado.src = `./assets/${resultado}.png`
   let historia = document.querySelector(".historia")
   historia.innerHTML += resultado+" - " 
   suma += resultado
